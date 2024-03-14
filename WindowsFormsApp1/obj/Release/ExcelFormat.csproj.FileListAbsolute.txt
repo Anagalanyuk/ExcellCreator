@@ -1,0 +1,13 @@
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe.config
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\bin\Release\Aspose.Cells.dll
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\bin\Release\Aspose.Cells.xml
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\ExcelFormat.csproj.AssemblyReference.cache
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\WindowsFormsApp1.ExcelView.resources
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\ExcelFormat.csproj.GenerateResource.cache
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\ExcelFormat.csproj.CoreCompileInputs.cache
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\ExcelFormat.csproj.CopyComplete
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
+C:\Users\agalanyuk\Desktop\Troelsen\ExcellFomater\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
