@@ -12,21 +12,20 @@ namespace WindowsFormsApp1
             try
             {
                 LoadOptions loPassword = new LoadOptions( );
-                //loPassword.Password = passwordNazwisko;
-                //using ( Workbook wbNazwisko = new Workbook( fromNazwisko , loPassword ) )
-                using ( Workbook wbNazwisko = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\From_720.xls", loPassword ) )
+                loPassword.Password = passwordNazwisko;
+                using ( Workbook wbNazwisko = new Workbook( fromNazwisko, loPassword ) )
+                //using ( Workbook wbNazwisko = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\From_720.xls", loPassword ) )
                 {
                     IsOpenNaz = true;
                     loPassword.Password = passwordStanowisko;
-                    //using ( Workbook wbStanowisco = new Workbook( fromStanowisko , loPassword ) )
-                    using ( Workbook wbStanowisco = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\From_720 Rozdzielnik wynagrodzeń OFP_2023_2024_CAŁOŚC_FK.xlsx", loPassword ) )
+                    using ( Workbook wbStanowisco = new Workbook( fromStanowisko, loPassword ) )
+                    //using ( Workbook wbStanowisco = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\From_720 Rozdzielnik wynagrodzeń OFP_2023_2024_CAŁOŚC_FK.xlsx", loPassword ) )
                     {
                         loPassword.Password = passwordCreateFile;
                         IsOpenStan = true;
-                        loPassword.Password = "11111";
 
-                        //using ( Workbook wbCreateFile = new Workbook( toCreateFile , loPassword ) )
-                        using ( Workbook wbCreateFile = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\To_MPK 720 OFP PŁACE TYCHY 2023.XLS", loPassword ) )
+                        using ( Workbook wbCreateFile = new Workbook( toCreateFile, loPassword ) )
+                        //using ( Workbook wbCreateFile = new Workbook( "C:\\Users\\agalanyuk\\Desktop\\Excell\\To_MPK 720 OFP PŁACE TYCHY 2023.XLS", loPassword ) )
                         {
                             IsOpenCreateFile = true;
                             path = toCreateFile;
@@ -480,7 +479,7 @@ namespace WindowsFormsApp1
 
                         if ( originalWorksheet.Cells[originalData[index].Row + i, originalData[index].Column].Value != null &&
                         !originalWorksheet.Cells[originalData[index].Row + i, originalData[index].Column].Value.ToString( ).
-                            Equals( copyWorksheet.Cells[copyData[index].Row + i, copyData[index].Column].Value.ToString( ) ) )
+                            Equals( copyWorksheet.Cells[copyData[index].Row + i, copyData[index].Column].Value.ToString( ) ) ) 
                         {
                             result = false;
                             MessageBox.Show( $" or: {originalWorksheet.Cells[originalData[index].Row + i, originalData[index].Column].Value.ToString( )} /n " +
